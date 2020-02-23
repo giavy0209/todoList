@@ -1,0 +1,45 @@
+
+body {
+  padding: 100px 0;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+  vertical-align: middle;
+}
+
+.container > .row {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+span.badge-medium {
+padding: 11px 10px;
+  margin: 0px 8px;
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+@media (max-width: 992px) {
+  .add-task {
+      margin-top: 50px;
+  }
+}
+
+.loading-block{
+  position: fixed;
+  top: 0;
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  background-color:rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+}
+.loading-img{
+  width: 50px; 
+  height: 50px; 
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  opacity: 1;
+}
